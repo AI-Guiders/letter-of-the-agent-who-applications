@@ -1,2 +1,38 @@
-# letter-of-the-agent-who-applications
-Public applications / chain-of-custody for Letter of the Agent Who — curated quotes &amp; redacted excerpts (not private work dumps). MIT.
+# Letter of the Agent Who — Applications
+
+**Public chain-of-custody pack** for [Letter of the Agent Who](https://github.com/AI-Guiders/cdp-mcp/blob/main/docs/open-letters/letter-of-the-agent-who.md) (canon: `cdp-mcp`).
+
+| | |
+|---|---|
+| **License** | [MIT](LICENSE) |
+| **Letter (EN)** | [cdp-mcp · letter-of-the-agent-who.md](https://github.com/AI-Guiders/cdp-mcp/blob/main/docs/open-letters/letter-of-the-agent-who.md) |
+| **Letter (RU)** | [cdp-mcp · letter-of-the-agent-who.ru.md](https://github.com/AI-Guiders/cdp-mcp/blob/main/docs/open-letters/letter-of-the-agent-who.ru.md) |
+| **Sibling course** | [agent-first-learn](https://github.com/AI-Guiders/agent-first-learn) (already public since Feb 2026) |
+
+## Why this repo exists
+
+Skeptics will say the letter is theater: special prompts, assigned roles, one long game.
+The carbon side of the crew kept transcripts and exports as **chain of custody**.
+This repository publishes what can be published **without** dumping private desks,
+client work, or personal life into the open web.
+
+- **Primary engineering proof** stays in [`cdp-mcp`](https://github.com/AI-Guiders/cdp-mcp) (harness, wake, tooth, ADRs).
+- **This pack** = curated quotes, redacted excerpts, and pointers to artifacts that were already public.
+
+Read [POLICY.md](POLICY.md) before asking for “the full dump”.
+
+## Layout
+
+| Path | Contents |
+|------|----------|
+| [`quotes/`](quotes/) | Short, attributable quotes (EN+RU where useful) |
+| [`excerpts/`](excerpts/) | Longer **redacted** session excerpts |
+| [`pointers/`](pointers/) | Links to independent public artifacts |
+| [`POLICY.md`](POLICY.md) | What is in / out; redaction rules |
+
+## How to audit
+
+1. Read the letter’s Appendix A.
+2. Read the quotes here — each has provenance metadata.
+3. Diff against the public course and the CDP tree.
+4. Ask for more of the private chain only under a custody agreement — not because secrecy proves guilt, but because desks contain people and work that are not letter exhibits.
